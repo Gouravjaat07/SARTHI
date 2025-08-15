@@ -1,0 +1,157 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color:#333;
+  padding: 0;
+  line-height: 1.6;
+  overflow: auto;
+}
+
+nav {
+  background: #0052cc;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00c896;
+}
+
+.hero {
+  background: linear-gradient(to right,#0052cc , #00c896);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.hero .cta {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color:  #0052cc;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero .cta:hover {
+  background: #e0e0e0;
+}
+
+#career-output {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #e3fcef;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  color: #0052cc;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  cursor: default;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #e3fcef;
+  cursor: pointer;
+}
+
+.card span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.impact ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.impact ul li::before {
+  content: "✅ ";
+  margin-right: 0.5rem;
+}
+
+.start {
+  text-align: center;
+  background: #00c896;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.start .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color: #00c896;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.start .cta:hover {
+  background: #e0e0e0;
+}
+
+footer {
+  background: #ecf0f1;
+  text-align: end;
+}  
+
