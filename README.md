@@ -7,6 +7,10 @@ It combines **machine learning insights** with **human mentorship** to map skill
 
 ---
 
+DEMO
+https://gouravjaat07.github.io/SARTHI/
+
+---
 ## 🚀 Features
 
 - **Profile Analysis** – Academic scores, subject preferences, skills, aspirations
