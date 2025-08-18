@@ -7,7 +7,8 @@ It combines **machine learning insights** with **human mentorship** to map skill
 
 ---
 
-DEMO
+📸 DEMO
+<br>
 https://gouravjaat07.github.io/SARTHI/
 
 ---
